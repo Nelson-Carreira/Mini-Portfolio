@@ -1,0 +1,175 @@
+body {
+    background-image: url(../imagens/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao {
+    background-color: #070d12;
+    /*cor do cartão*/
+    width: 370px;
+    /*tamanho do cartão*/
+    border: 2px solid #e126d9;
+    /*cor da borda do cartao*/
+
+
+    border-radius: 10px;
+    /*arredondar as bordas do cartão*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.cartao .minhas-informacoes {
+    padding-top: 20px;
+    /*espaçamento superior*/
+    display: flex;
+    /*centralizar os elementos da class pai*/
+    flex-direction: column;
+    /*direção de alinhamento como coluna e não linha*/
+    align-items: center;
+    /*alinha ao centro todos os itens horizontalmente*/
+    gap: 10px;
+    /*espaçamentos entre os elementos*/
+}
+
+.cartao .minhas-informacoes img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    /*arredondar a imagem*/
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+
+    border: 4px solid #19058b;
+    /*borda da imagem*/
+}
+
+.cartao .minhas-informacoes .nome {
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo {
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo {
+    margin-top: 15px;
+}
+
+.cartao .abas {
+    display: flex;
+}
+
+.cartao .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+}
+
+.cartao .abas img {
+    width: 30px;
+}
+
+.cartao .abas .aba.selecionado {
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas {
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover {
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao {
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado {
+    display: block;
+}
+
+.informacoes-abas .sub-titulo {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao {
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.informacoes-abas .descricao span {
+    color: #02d08f;
+}
+
+.redes-socias {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.redes-socias li a {
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    max-height: 180px;
+    overflow: auto;
+}
+
+.redes-socias .curriculo {
+    background-color: #06c185;
+}
+
+.redes-socias .linkedin {
+    background-color: #0d87bd;
+}
+
+.redes-socias .github {
+    background-color: #545454;
+}
+
+.redes-socias li a:hover {
+    opacity: 0.6;
+}

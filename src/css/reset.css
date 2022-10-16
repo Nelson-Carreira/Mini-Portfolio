@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    /*Espaçamento internos*/
+    padding: 0;
+    /*Espaçamento externos*/
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    /*tirar estilização da tag UL. pontinhos*/
+}
+
+a {
+    text-decoration: none;
+    /*estilização dos links*/
+    color: #000;
+    /*cor dos links*/
+}

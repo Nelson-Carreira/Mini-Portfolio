@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <title>Mini Portfólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <!--inicio da main-->
+
+        <div class="minhas-informacoes">
+            <!--inicio minhas informaçoes-->
+            <!--Divisor do primeiro conteudo por bloco'cabeçalho'-->
+            <a href="https://github.com/Nelson-Carreira" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/108430367?v=4" alt="minha foto">
+            </a>
+            <!--tag img. para colocar imagem na pag-->
+            <h1 class="nome">Nelson Carreira</h1>
+            <!--h1 titulo principal da pagina + importante vai em ordem crescente ate po h6-->
+            <h2 class="cargo">Devenvolvedor Frontend Júnior</h2>
+        </div>
+        <!--final minhas informaçoes-->
+
+        <div class="conteudo">
+            <!--inicio conteudo-->
+            <!--conteudo do meio-->
+            <ul class="abas">
+                <!--lista não ordenada, criação de lista-->
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone redes sociais">
+                </li>
+            </ul>
+        </div>
+        <!--inicio conteudo-->
+
+        <div class="informacoes-abas">
+            <!--inicio informacoes-abas-->
+
+            <div class="informacao selecionado" id="informacao-sobre-mim">
+                <!--inicio informacoes-->
+                <h3 class="sub-titulo">Sobre</h3>
+
+                <div class="descricao">
+                    <!--inicio descrição-->
+                    <p>Olá! Meu nome é Nelson Carreira, Sejam bem vindos!!</p>
+
+                    <p>Sou apaixonado por tecnologia, estou estudando programação a 5 meses.
+                        Sempre quis trabalhar com programação e atualmente comecei a colocar esse sonho em pratica
+                        estudando <span>HTML, CSS, JavaScript e Python</span>,
+                        meus principais hobbies são Futebol, Video games, e assistir séries!!
+                    </p>
+                </div>
+                <!--final descrição-->
+            </div>
+            <!--final informacoes abas-->
+
+            <div class="informacao" id="informacao-minhas-redes">
+                <!--inicio info-->
+                <h3 class="sub-titulo">Minhas Redes</h3>
+
+                <ul class="redes-socias">
+                    <li>
+                        <a href="" target="_blank" class="curriculo">Currículo</a>
+                        <!--link do currículo -->
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/nelson-carreira-9669a2144/" target="_blank"
+                            class="linkedin">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nelson-Carreira" target="_blank" class="github">Github</a>
+                    </li>
+                </ul>
+            </div>
+            <!--final info-->
+
+        </div>
+        <!--final informacoes-abas-->
+
+    </main>
+    <!--final da main-->
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
