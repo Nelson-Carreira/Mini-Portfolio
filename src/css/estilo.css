@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  
+
     font-family: 'VT323', monospace;
     color: #f3f3f3;
     font-size: 18px;
@@ -21,7 +21,6 @@ body {
     /*tamanho do cartão*/
     border: 2px solid #e126d9;
     /*cor da borda do cartao*/
-
 
     border-radius: 10px;
     /*arredondar as bordas do cartão*/
@@ -124,12 +123,14 @@ body {
     text-align: center;
 }
 
+/*Scroll do mouse costumizar*/
 .informacoes-abas .descricao {
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
     padding: 15px;
 }
+
 
 .informacoes-abas .descricao span {
     color: #02d08f;
